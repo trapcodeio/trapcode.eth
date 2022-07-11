@@ -1,0 +1,16 @@
+$bg: #151415;
+$bg-light: lighten($bg, 5%);
+
+body {
+    background: $bg;
+    color: #fff;
+}
+
+.bg-light {
+    background: $bg-light;
+}
+
+a {
+    @apply text-red-400 px-2 py-1 rounded;
+    background: $bg;
+}
